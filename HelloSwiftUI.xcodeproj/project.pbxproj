@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		001491FE2C11DBDD0004C657 /* TaskTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001491FD2C11DBDD0004C657 /* TaskTestView.swift */; };
 		001492002C11DC260004C657 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001491FF2C11DC260004C657 /* Counter.swift */; };
+		001492032C11F57D0004C657 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 001492012C11F57D0004C657 /* README.md */; };
+		001492042C11F57D0004C657 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 001492022C11F57D0004C657 /* LICENSE */; };
 		00C4023328EDB61000F6B313 /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4023228EDB61000F6B313 /* HelloSwiftUIApp.swift */; };
 		00C4023528EDB61000F6B313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4023428EDB61000F6B313 /* ContentView.swift */; };
 		00C4023728EDB61100F6B313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C4023628EDB61100F6B313 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		001491FD2C11DBDD0004C657 /* TaskTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTestView.swift; sourceTree = "<group>"; };
 		001491FF2C11DC260004C657 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		001492012C11F57D0004C657 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		001492022C11F57D0004C657 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		00C4022F28EDB61000F6B313 /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C4023228EDB61000F6B313 /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		00C4023428EDB61000F6B313 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		00C4023128EDB61000F6B313 /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				001492022C11F57D0004C657 /* LICENSE */,
+				001492012C11F57D0004C657 /* README.md */,
 				00C4023228EDB61000F6B313 /* HelloSwiftUIApp.swift */,
 				00C4023428EDB61000F6B313 /* ContentView.swift */,
 				001491FD2C11DBDD0004C657 /* TaskTestView.swift */,
@@ -239,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001492032C11F57D0004C657 /* README.md in Resources */,
 				00C4023A28EDB61100F6B313 /* Preview Assets.xcassets in Resources */,
+				001492042C11F57D0004C657 /* LICENSE in Resources */,
 				00C4023728EDB61100F6B313 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
