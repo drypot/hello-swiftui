@@ -11,9 +11,8 @@ struct Counter {
     var counter = 0
     
     mutating func increment() -> Int {
-        defer {
-            counter += 1
-        }
-        return counter
+        var previous = counter
+        counter += 1
+        return previous
     }
 }
